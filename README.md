@@ -19,6 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 
 List Tile adalah package yang dapat memudahkan kita membuat sebuah list of widget yang dibiasa digunakan untuk tampilan yang memiliki banyak atau serangkaian widget text. didalam list tile terdapat tilte dan subtitle yang bisa digunakan untuk parameter dari sebuah list tile dan juga sebagai tanda. pada list tile terdapat beberapa properti yang bisa digunakan sebagai argument yang akan dikirim seperti title yang membutuhkan argument Widget biasanya sebuah text, subtitle seperti title namum berapa di posisi bawah sebuah title, properti leading digunakan untuk image atau icon yang dapat mendefinisikan secara visual list tile yang akan dibuat berada di left atau kiri dari sebuah tile, properti trailing mengembalikan sebuah widget yang berada disebelah paling kanan, properti dense mengubah kepadatan sebuah widget pada list tile, properti content padding digunakan untuk menambahkan jarak kedalam sebuah list tile dan masih banyak lagi, list tile sendiri memiliki beberapa properti event listener seperto onTap yang membutuhkan sebuah function atau fungsi yang akan di jalan kan saat terjadinya sebuah event tap pada layar.
 
+```dart
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -119,4 +120,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+```
+![code-snapshot1](https://github.com/appworkspaceRM/list-tile/assets/135511281/fd8b717c-e215-4b8c-9c1a-08753babe56f)
 
